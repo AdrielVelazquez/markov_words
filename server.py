@@ -1,3 +1,5 @@
 #!flask/bin/python
+import os
 from app import app
-app.run()
+if __name__ == "__main__":
+    app.run()
